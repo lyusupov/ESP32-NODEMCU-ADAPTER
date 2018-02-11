@@ -4,9 +4,12 @@ NodeMCU (left) and DoIt ESP32 DevKit (right), side by side: <br>
 
 ![](https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32-NODEMCU-ADAPTER-1.jpg)
 
-# Wiring
+# Pin mapping
 
-TBD
+## System
+
+| NodeMCU      | GND (x4) | 3V3 (x3) | EN | VIN |
+| ESP32 DEvKit | GND (x2) | 3V3      | EN | VIN |
 
 # Prototype
 
