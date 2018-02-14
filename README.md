@@ -29,14 +29,17 @@ NodeMCU (left) and DoIt ESP32 DevKit (right), side by side: <br>
 
 ## J1 connector (optional). Residual ESP32 pins and UAV (MAVLINK) port.
 
-|1|2|3|4|5|6|
-|--|--|--|--|--|--|
-|3V3|GND|D32|D33|D34|D35|
-
+|  |1|2|3|4|5|6|7|
+|--|--|--|--|--|--|--|--|
+| 2 |A0|D1|RX|TX|D3|GND|5V|
+| 1 |3V3|GND|D32|D33|D34|D35|SD3|
 
 ## J2 connector (optional). NRF905 or "SoftRF LoRa" port.
 
-TBD
+|  |1|2|3|4|5|6|7|
+|--|--|--|--|--|--|--|--|
+| 2 |D0|D2|NC|D33|D7|D8|GND|
+| 1 |3V3|D4|NC|D32|D6|D5|GND|
 
 # Prototype
 
