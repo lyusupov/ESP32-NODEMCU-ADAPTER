@@ -27,7 +27,7 @@ NodeMCU (left) and DoIt ESP32 DevKit (right), side by side: <br>
 | NodeMCU           |RSV1|RSV2|SD1|SD2|CLK|CMD|SD0|RST|
 | DoIt ESP32 DevKit |RX2|TX2|D21|D22|D15|D4|D2|VN|
 
-## Optional J1 connector. Leftover ESP32 pins and UAV (MAVLINK) port.
+## Optional J1 connector. Residual ESP32 pins and UAV (MAVLINK) port.
 
 |1|2|3|4|5|6|
 |--|--|--|--|--|--|
