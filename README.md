@@ -57,8 +57,7 @@ and for **SoftRF Enclosure V4** as well:  <br>
 
 # PCB
 
-<img src="https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32-NODEMCU-ADAPTER-PCB-TOP.svg?sanitize=true">
-<img src="https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32-NODEMCU-ADAPTER-PCB-BOTTOM.svg?sanitize=true">
+![](https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32-NODEMCU-ADAPTER-PCB.JPG)
 
 # Bill of materials
 
