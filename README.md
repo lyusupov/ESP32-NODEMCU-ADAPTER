@@ -38,8 +38,8 @@ NodeMCU (left) and DoIt ESP32 DevKit (right), side by side: <br>
 
 |  |1|2|3|4|5|6|7|
 |--|--|--|--|--|--|--|--|
-| 2 |D0|D2|NC|D34|D7|D8|GND|
-| 1 |3V3|D4|NC|D35|D6|D5|GND|
+| 2 |D0|D2|D35|D34|D7|D8|GND|
+| 1 |3V3|D4|NC|NC|D6|D5|GND|
 
 # Prototype
 
