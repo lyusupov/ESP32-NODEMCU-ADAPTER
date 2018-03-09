@@ -58,7 +58,7 @@ and for **SoftRF Enclosure V4** as well:  <br>
 # PCB
 
 This PCB design has been sent for manufacturing.<br>
-Upon validation (exp. in April'18) I'll open the source for public use.<br>
+Upon validation (exp. in April) I'll open the source for public use.<br>
 Estimated price for minimum 4pcs of the PCB with basic international shipping included in is around 7 USD.<br>
 
 ![](https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32-NODEMCU-ADAPTER-PCB.JPG)
