@@ -13,14 +13,14 @@ NodeMCU (left) and DoIt ESP32 DevKit (right), side by side: <br>
 | NodeMCU           | GND (x4) | 3V3 (x3) | EN | VIN |
 | DoIt ESP32 DevKit | GND (x2) | 3V3      | EN | VIN |
 
-## Data. Bank 1. In use by SoftRF firmware.
+## GPIO. Bank 1. In use by SoftRF firmware.
 
 |  |1|2|3|4|5|6|7|8|9|10|11|12|13|
 | ----------------- |--|--|--|--|--|--|--|--|--|---|---|--|---|
 | NodeMCU           |D0|D1|D2|D3|D4|D5|D6|D7|D8|RX|TX|A0|SD3|
 | DoIt ESP32 DevKit |D26|D25|D14|D23|D12|D5|D19|D27|D18|RX0|TX0|VP|D13|
 
-## Data. Bank 2. Spare pins.
+## GPIO. Bank 2. Spare pins.
 
 |  |1|2|3|4|5|6|7|8|
 | ----------------- |--|--|--|--|--|--|--|--|
