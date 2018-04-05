@@ -55,14 +55,18 @@ and for **SoftRF Enclosure V4** as well:  <br>
 
 ![](https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32-NODEMCU-ADAPTER-4.jpg)
 
-# PCB
+# PCB manufacturing
 
-This PCB design has been sent for manufacturing.<br>
-Upon validation (exp. in April) I'll open the source for public use.<br>
-Estimated price for minimum 4pcs of the PCB with basic international shipping included in is around 7 USD.<br>
+You can order the PCB direct from manufacturer: &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://PCBs.io/share/4xgbg"><img src="https://s3.amazonaws.com/pcbs.io/share.png" alt="Order from PCBs.io"></img></a><br>
+
+Estimated price for minimum 4 pcs of the PCB with basic international shipping included in is around 7 USD.<br>
 
 ![](https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32-NODEMCU-ADAPTER-PCB.JPG)
 
 # Bill of materials
 
-TBD
+Number|Part|Qty|Picture|Source
+---|---|---|---|---
+1|PCB|1|![](https://s3.amazonaws.com/pcbsio/svgs/e35706dacc5c602ce8189f8155dde1864330ef9521bdc46b84b4bb962c59313d/top.svg)|<a href="https://PCBs.io/share/4xgbg"><img src="https://s3.amazonaws.com/pcbs.io/share.png" alt="Order from PCBs.io"></img></a>
+2|1x40 female header 2.54mm|1|![](https://github.com/lyusupov/SoftRF/blob/master/documents/images/bom/f1x40.jpg)|[AliExpress](https://www.aliexpress.com/item/10-2-54-40/32839452712.html)
+3|1x40 male header 2.54mm|1|![](https://github.com/lyusupov/SoftRF/blob/master/documents/images/bom/m40.jpg)|[AliExpress](https://www.aliexpress.com/item/10pcs-40-Pin-1x40-Single-Row-Male-2-54-Breakable-Pin-Header-Connector-Strip-for-Arduino/32806313091.html)
