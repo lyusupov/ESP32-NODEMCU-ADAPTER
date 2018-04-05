@@ -61,6 +61,11 @@ You can order the PCB direct from manufacturer: &nbsp;&nbsp;&nbsp;&nbsp; <a href
 
 Estimated price for minimum 4 pcs of the PCB with basic international shipping included in is around 7 USD.<br>
 
+Expect to wait:
+- 1 week for panelization
+- 2 weeks for fabrication 
+- 1-2 weeks for delivery to your location
+
 ![](https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32-NODEMCU-ADAPTER-PCB.JPG)
 
 # Bill of materials
