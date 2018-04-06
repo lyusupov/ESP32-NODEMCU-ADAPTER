@@ -41,19 +41,17 @@ NodeMCU (left) and DoIt ESP32 DevKit (right), side by side: <br>
 | 2 |D0|D2|D35|D34|D7|D8|GND|
 | 1 |3V3|D4|NC|NC|D6|D5|GND|
 
-# Prototype
+# Adapter
 
-Prior to making a PCB design and placing an order for the manufacturing, I've soldered this prototype: <br>
-
-![](https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32-NODEMCU-ADAPTER-2.jpg)
+<p><img src="https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32-NODEMCU-ADAPTER-5.jpg" width="40%" height="40%"> <img src="https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32-NODEMCU-ADAPTER-6.jpg" width="40%" height="40%"></p>
 
 It fits good enough for **SoftRF Shield**: <br> 
 
-![](https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32-NODEMCU-ADAPTER-3.jpg)
+<p><img src="https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32-NODEMCU-ADAPTER-8.jpg" width="40%" height="40%"> <img src="https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32-NODEMCU-ADAPTER-7.jpg" width="40%" height="40%"></p>
 
 and for **SoftRF Enclosure V4** as well:  <br>
 
-![](https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32-NODEMCU-ADAPTER-4.jpg)
+![](https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32-NODEMCU-ADAPTER-9.jpg)
 
 # PCB manufacturing
 
