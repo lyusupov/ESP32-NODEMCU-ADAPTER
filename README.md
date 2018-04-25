@@ -18,14 +18,14 @@ NodeMCU (left) and DoIt ESP32 DevKit (right), side by side: <br>
 |  |1|2|3|4|5|6|7|8|9|10|11|12|13|
 | ----------------- |--|--|--|--|--|--|--|--|--|---|---|--|---|
 | NodeMCU           |D0|D1|D2|D3|D4|D5|D6|D7|D8|RX|TX|A0|SD3|
-| DoIt ESP32 DevKit |D26|D25|D14|D23|D12|D5|D19|D27|D18|RX0|TX0|VP|D13|
+| DoIt ESP32 DevKit |D26|D25|D14|D23|D2|D5|D19|D27|D18|RX0|TX0|VP|D13|
 
 ## GPIO. Bank 2. Spare pins.
 
 |  |1|2|3|4|5|6|7|8|
 | ----------------- |--|--|--|--|--|--|--|--|
 | NodeMCU           |RSV1|RSV2|SD1|SD2|CLK|CMD|SD0|RST|
-| DoIt ESP32 DevKit |RX2|TX2|D21|D22|D15|D4|D2|VN|
+| DoIt ESP32 DevKit |RX2|TX2|D21|D22|D15|D4|D12|VN|
 
 ## UAV connector (optional). Residual ESP32 pins and GNSS/MAVLINK port.
 
