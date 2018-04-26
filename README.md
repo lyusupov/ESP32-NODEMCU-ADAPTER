@@ -1,3 +1,10 @@
+* [Purpose](https://github.com/lyusupov/ESP32-NODEMCU-ADAPTER#purpose)
+* [Pin mapping](https://github.com/lyusupov/ESP32-NODEMCU-ADAPTER#pin-mapping)
+* [Adapter](https://github.com/lyusupov/ESP32-NODEMCU-ADAPTER#adapter)
+* [PCB](https://github.com/lyusupov/ESP32-NODEMCU-ADAPTER#pcb-manufacturing)
+* [BOM](https://github.com/lyusupov/ESP32-NODEMCU-ADAPTER#bill-of-materials)
+* [Errata](https://github.com/lyusupov/ESP32-NODEMCU-ADAPTER#errata)
+
 # Purpose
 
 NodeMCU (left) and DoIt ESP32 DevKit (right), side by side: <br>
@@ -73,3 +80,8 @@ Number|Part|Qty|Picture|Source
 1|PCB|1|![](https://s3.amazonaws.com/pcbsio/svgs/e35706dacc5c602ce8189f8155dde1864330ef9521bdc46b84b4bb962c59313d/top.svg)|<a href="https://PCBs.io/share/4xgbg"><img src="https://s3.amazonaws.com/pcbs.io/share.png" alt="Order from PCBs.io"></img></a>
 2|1x40 female header 2.54mm|1|![](https://github.com/lyusupov/SoftRF/blob/master/documents/images/bom/f1x40.jpg)|[AliExpress](https://www.aliexpress.com/item/10-2-54-40/32839452712.html)
 3|1x40 male header 2.54mm|1|![](https://github.com/lyusupov/SoftRF/blob/master/documents/images/bom/m40.jpg)|[AliExpress](https://www.aliexpress.com/item/10pcs-40-Pin-1x40-Single-Row-Male-2-54-Breakable-Pin-Header-Connector-Strip-for-Arduino/32806313091.html)
+
+# Errata
+## Revision 1.0
+
+TBD
