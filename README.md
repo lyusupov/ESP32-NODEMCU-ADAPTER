@@ -82,6 +82,11 @@ Number|Part|Qty|Picture|Source
 3|1x40 male header 2.54mm|1|![](https://github.com/lyusupov/SoftRF/blob/master/documents/images/bom/m40.jpg)|[AliExpress](https://www.aliexpress.com/item/10pcs-40-Pin-1x40-Single-Row-Male-2-54-Breakable-Pin-Header-Connector-Strip-for-Arduino/32806313091.html)
 
 # Errata
-## Revision 1.0
 
+## Revision 1.1
+<br>
+NONE
+
+## Revision 1.0
+<br>
 TBD
