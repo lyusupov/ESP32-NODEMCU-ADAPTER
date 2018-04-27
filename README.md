@@ -90,7 +90,7 @@ No known errors.
 ## Revision 1.0
 
 ### Issue
-ESP32 does bot boot when an I2C device is connected to SoftRF LoRa I2C port.<br>
+ESP32 does not boot when an I2C device is connected to SoftRF LoRa I2C port.<br>
 
 ### Reason
 In accordance with ESP32 datasheet, GPIO12 is one of boot-time sensitive "strapping" pins.<br>
