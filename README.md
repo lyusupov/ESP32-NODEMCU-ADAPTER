@@ -85,8 +85,13 @@ Number|Part|Qty|Picture|Source
 
 ## Revision 1.1
 <br>
-NONE
+No known errors.
 
 ## Revision 1.0
 <br>
-TBD
+**Issue:** ESP32 does bot boot when an I2C device is connected to SoftRF LoRa I2C port.<br>
+**Reason:** In accordance with ESP32 datasheet, GPIO12 is one of boot-time sensitive "strapping" pins.<br>
+**Fix:** Swap ESP32's GPIO12 with GPIO2.<br>
+1. With use of a multimeter, check continuity between ESP32's D12 and NodeMCU's D4.<br>
+2. Use a sharp khife tip to scratch mask paint near D12 as shown on these pictures:<br>
+<p><img src="https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32-NODEMCU-ADAPTER-10.jpg" width="100%" height="100%"> <img src="https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32-NODEMCU-ADAPTER-11.jpg" width="100%" height="100%"></p>
