@@ -35,7 +35,6 @@ NodeMCU (left) and DoIt ESP32 DevKit (right), side by side: <br>
 | DoIt ESP32 DevKit |RX2|TX2|D21|D22|D15|D4|D12|VN|
 
 ## UAV connector (optional). Residual ESP32 pins and GNSS/MAVLINK port.
-
 |  |1|2|3|4|5|6|7|
 |--|--|--|--|--|--|--|--|
 | 2 |A0|D1|RX|TX|D3|GND|5V|
@@ -99,5 +98,19 @@ In accordance with ESP32 datasheet, GPIO12 is one of boot-time sensitive "strapp
 Swap ESP32's GPIO12 with GPIO2.<br>
 <br>
 1. With use of a multimeter, check continuity between ESP32's D12 and NodeMCU's D4.<br>
-2. Use a sharp khife tip to scratch mask paint near D12 as shown on these pictures:<br>
+2. Use a sharp knife tip to scratch mask paint near D12 as shown on these pictures:<br>
 <p><img src="https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32-NODEMCU-ADAPTER-10.jpg" width="40%" height="40%"> <img src="https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32-NODEMCU-ADAPTER-11.jpg" align="top" width="40%" height="40%"></p>
+3. Cut the copper wire near D12:<br>
+<p><img src="https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32-NODEMCU-ADAPTER-12.jpg" width="40%" height="40%"> <img src="https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32-NODEMCU-ADAPTER-13.jpg" align="top" width="40%" height="40%"></p>
+4. Use the multimeter to check continuity loss between ESP32's D12 and NodeMCU's D4.<br>
+5. Solder a wire between ESP32's D2 and NodeMCU's D4.<br>
+
+#### Variant A. Adapter.
+
+![](https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32-NODEMCU-ADAPTER-14.jpg)
+
+#### Variant B. UAV board.
+
+![](https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32-NODEMCU-ADAPTER-15.jpg)
+
+6. Use the multimeter to check continuity between ESP32's D2 and NodeMCU's D4.<br>
