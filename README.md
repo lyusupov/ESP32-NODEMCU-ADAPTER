@@ -84,8 +84,15 @@ Number|Part|Qty|Picture|Source
 # Errata
 
 ## Revision 1.1
-<br>
-No known errors.
+### Issue
+Unable to update ESP32's firmware via micro USB when an I2C device is connected to SoftRF LoRa I2C port.<br>
+
+### Reason
+In accordance with ESP32 datasheet, GPIO2 is one of boot-time sensitive "strapping" pins.<br>
+
+### Workaround
+Detach the I2C device from SoftRF LoRa I2C port prior to initial SoftRF firmware upload (or repair).<br>
+Use Web or OTA upload method for regular maintenance firmware updates.
 
 ## Revision 1.0
 
