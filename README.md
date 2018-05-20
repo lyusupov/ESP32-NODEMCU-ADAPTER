@@ -93,14 +93,16 @@ In accordance with ESP32 datasheet, GPIO2 is one of boot-time sensitive "strappi
 ### Workaround
 Detach the I2C device from SoftRF LoRa I2C port prior to initial SoftRF firmware upload (or repair).<br>
 Use Web or OTA upload method for regular maintenance firmware updates.
-
+<br>
+<br>  
 ### Issue #2
 Standalone Edition/ESP32 is unable to boot up when running on 2 fully charged AA Ni-Mh 1.2V batteries with DC-DC up-converter.
 
-## Reason
+### Reason
 When ESP32 brings up it's Wi-Fi adapter, peak current consumption may reach 500 mA or even more.<br>
-If power source has very limited maximum current value (say, due to significant internal resistance) - this may cause a drop of supply voltage. ESP32 has built-in brownout detector which will trigger a system reset in this case. <br>
-
+If power source has very limited maximum current value (say, due to significant internal resistance) - this may cause a drop of supply voltage.<br>
+ESP32 has built-in brownout detector which will trigger a system reset in this case to insure proper operation of flash memory and CPU core. <br>
+<br>
 ![](https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32_WIFI_CALIB.jpg)
 
 ### Fix
