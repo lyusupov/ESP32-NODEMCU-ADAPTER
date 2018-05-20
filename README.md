@@ -84,7 +84,7 @@ Number|Part|Qty|Picture|Source
 # Errata
 
 ## Revision 1.1
-### Issue
+### Issue #1
 Unable to update ESP32's firmware via micro USB when an I2C device is connected to SoftRF LoRa I2C port.<br>
 
 ### Reason
@@ -93,6 +93,20 @@ In accordance with ESP32 datasheet, GPIO2 is one of boot-time sensitive "strappi
 ### Workaround
 Detach the I2C device from SoftRF LoRa I2C port prior to initial SoftRF firmware upload (or repair).<br>
 Use Web or OTA upload method for regular maintenance firmware updates.
+
+### Issue #2
+Standalone Edition/ESP32 is unable to boot up when running on 2 fully charged AA Ni-Mh 1.2V batteries with DC-DC up-converter.
+
+## Reason
+When ESP32 brings up it's Wi-Fi adapter, peak current consumption may reach 500 mA or even more.<br>
+If power source has very limited maximum current value (say, due to significant internal resistance) - this may cause a drop of supply voltage. ESP32 has built-in brownout detector which will trigger a system reset in this case. <br>
+
+![](https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32_WIFI_CALIB.jpg)
+
+### Fix
+Solder a 1000uF x 6.3V electrolitic capacitor on 3.3V power rails of the adapter like shown on this photo:
+
+![](https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32-NODEMCU-ADAPTER-16.jpg)
 
 ## Revision 1.0
 
