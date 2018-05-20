@@ -99,7 +99,7 @@ Use Web or OTA upload method for regular maintenance firmware updates.
 Standalone Edition/ESP32 is unable to boot up when running on 2 fully charged AA Ni-Mh 1.2V batteries with DC-DC up-converter.
 
 ### Reason
-When ESP32 brings up it's Wi-Fi adapter, peak current consumption may reach 500 mA or even more.<br>
+When ESP32 brings up it's Wi-Fi adapter it performs full or partial PHY calibration. Peak current consumption may reach 500-700 mA at this moment.<br>
 If power source has very limited maximum current value (say, due to significant internal resistance) - this may cause a drop of supply voltage.<br>
 ESP32 has built-in brownout detector which will trigger a system reset in this case to insure proper operation of flash memory and CPU core. <br>
 <br>
