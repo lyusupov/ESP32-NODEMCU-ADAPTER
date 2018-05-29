@@ -71,6 +71,8 @@ Expect to wait:
 - 2 weeks for fabrication 
 - 1-2 weeks for delivery to your location
 
+Alternatively you may pick [these Gerber files](https://github.com/lyusupov/ESP32-NODEMCU-ADAPTER/raw/master/gerber/ESP32-NODEMCU-ADAPTER-v1.1.zip) and order the PCB from a local manufacturer of your preference.
+
 ![](https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32-NODEMCU-ADAPTER-PCB.JPG)
 
 # Bill of materials
