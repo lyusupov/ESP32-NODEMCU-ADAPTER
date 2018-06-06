@@ -87,56 +87,12 @@ Number|Part|Qty|Picture|Source
 
 ## Revision 1.1
 ### Issue #1
-Unable to update ESP32's firmware via micro USB when an I2C device is connected to SoftRF LoRa I2C port.<br>
+[Unable to update ESP32's firmware via micro USB when an I2C device is connected to SoftRF LoRa I2C port](https://github.com/lyusupov/ESP32-NODEMCU-ADAPTER/issues/2)
 
-### Reason
-In accordance with ESP32 datasheet, GPIO2 is one of boot-time sensitive "strapping" pins.<br>
-
-### Workaround
-Detach the I2C device from SoftRF LoRa I2C port prior to initial SoftRF firmware upload (or repair).<br>
-Use Web or OTA upload method for regular maintenance firmware updates.
-<br>
-<br>  
 ### Issue #2
-Standalone Edition/ESP32 is unable to boot up when running on 2 fully charged AA Ni-Mh 1.2V batteries with DC-DC up-converter.
-
-### Reason
-When ESP32 brings up it's Wi-Fi adapter it performs full or partial PHY calibration. Peak current consumption may reach 500-700 mA at this moment.<br>
-If power source has very limited maximum current value (say, due to significant internal resistance) - this may cause a drop of supply voltage.<br>
-ESP32 has built-in brownout detector which will trigger a system reset in this case to insure proper operation of flash memory and CPU core. <br>
-<br>
-![](https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32_WIFI_CALIB.jpg)
-
-### Fix
-Solder a 1000uF x 6.3V electrolitic capacitor on 3.3V power rails of the adapter like shown on this photo:
-
-![](https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32-NODEMCU-ADAPTER-16.jpg)
+[Standalone Edition/ESP32 is unable to boot up when running on 2 fully charged AA Ni-Mh 1.2V batteries with DC-DC up-converter](https://github.com/lyusupov/ESP32-NODEMCU-ADAPTER/issues/3)
 
 ## Revision 1.0
 
 ### Issue
-ESP32 does not boot when an I2C device is connected to SoftRF LoRa I2C port.<br>
-
-### Reason
-In accordance with ESP32 datasheet, GPIO12 is one of boot-time sensitive "strapping" pins.<br>
-
-### Fix
-Swap ESP32's GPIO12 with GPIO2.<br>
-<br>
-1. With use of a multimeter, check for continuity between ESP32's D12 and NodeMCU's D4.<br>
-2. Use a sharp knife tip to scratch mask paint near D12 as shown on these pictures:<br>
-<p><img src="https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32-NODEMCU-ADAPTER-10.jpg" width="40%" height="40%"> <img src="https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32-NODEMCU-ADAPTER-11.jpg" align="top" width="40%" height="40%"></p>
-3. Cut the copper wire near D12:<br>
-<p><img src="https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32-NODEMCU-ADAPTER-12.jpg" width="40%" height="40%"> <img src="https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32-NODEMCU-ADAPTER-13.jpg" align="top" width="40%" height="40%"></p>
-4. Use the multimeter to check for continuity loss between ESP32's D12 and NodeMCU's D4.<br>
-5. Solder a wire between ESP32's D2 and NodeMCU's D4.<br>
-
-#### Variant A. Adapter.
-
-![](https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32-NODEMCU-ADAPTER-14.jpg)
-
-#### Variant B. UAV board.
-
-![](https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32-NODEMCU-ADAPTER-15.jpg)
-
-6. Use the multimeter to check for continuity between ESP32's D2 and NodeMCU's D4.<br>
+[ESP32 does not boot when an I2C device is connected to SoftRF LoRa I2C port](https://github.com/lyusupov/ESP32-NODEMCU-ADAPTER/issues/1)
