@@ -62,7 +62,9 @@ and for **SoftRF Enclosure V4** as well:  <br>
 
 # PCB manufacturing
 
-You can order the PCB direct from manufacturer: &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://PCBs.io/share/4xgbg"><img src="https://s3.amazonaws.com/pcbs.io/share.png" alt="Order from PCBs.io"></img></a><br>
+You can order the PCB direct from manufacturer: <sup>1</sup>
+
+&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://PCBs.io/share/4xgbg"><img src="https://s3.amazonaws.com/pcbs.io/share.png" alt="Order from PCBs.io"></img></a><br>
 
 Estimated price for minimum 4 pcs of the PCB with basic international shipping included in is around 7 USD.<br>
 
@@ -72,6 +74,9 @@ Expect to wait:
 - 1-2 weeks for delivery to your location
 
 Alternatively you may pick [these Gerber files](https://github.com/lyusupov/ESP32-NODEMCU-ADAPTER/raw/master/gerber/ESP32-NODEMCU-ADAPTER-v1.1.zip) and order the PCB from a local manufacturer of your preference.
+
+<sup>1</sup> - SSL Cert error warning may come up - it is known to be safely ignored<br>
+<br>
 
 ![](https://github.com/lyusupov/SoftRF/raw/master/documents/images/ESP32-NODEMCU-ADAPTER-PCB.JPG)
 
