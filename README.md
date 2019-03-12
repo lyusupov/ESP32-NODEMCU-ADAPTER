@@ -97,7 +97,9 @@ Number|Part|Qty|Picture|Source
 ### Issue #2
 [Standalone Edition/ESP32 is unable to boot up when running on 2 fully charged AA Ni-Mh 1.2V batteries with DC-DC up-converter](https://github.com/lyusupov/ESP32-NODEMCU-ADAPTER/issues/3)
 
+<!--
 ## Revision 1.0
 
 ### Issue
 [ESP32 does not boot when an I2C device is connected to SoftRF LoRa I2C port](https://github.com/lyusupov/ESP32-NODEMCU-ADAPTER/issues/1)
+-->
